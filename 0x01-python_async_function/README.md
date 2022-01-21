@@ -13,7 +13,7 @@ In this project, I learned about:
 + [1. Let's execute multiple coroutines at the same time with async](https://github.com/Yosef-S-A/alx-backend-python/blob/main/0x01-python_async_function/1-concurrent_coroutines.py)
    - A Python script that run multiple coroutines from **Task 0** and return list of delay seconds.
  + [2. Measure the runtime](https://github.com/Yosef-S-A/alx-backend-python/blob/main/0x01-python_async_function/2-measure_runtime.py)
-   - A Python script that measure the total time of exectuion of **Task_1** and return runtime per execution in seconds.
+   - A Python script that measure the total time of exectuion of **Task 1** and return runtime per execution in seconds.
   + [3. Tasks](https://github.com/Yosef-S-A/alx-backend-python/blob/main/0x01-python_async_function/3-tasks.py)
      - A function that returns asyncio.Task
   + [4. Tasks](https://github.com/Yosef-S-A/alx-backend-python/blob/main/0x01-python_async_function/4-tasks.py)
