@@ -8,7 +8,19 @@ task_wait_random = __import__('3-tasks').task_wait_random
 
 
 async def task_wait_n(n: int, max_delay: int = 10) -> List[float]:
-    
+    """ execute task_wait_random from 3-tasks.py file
+    n times with the specified max_delay
+    Parameters
+    ----------
+    n : int
+      number of times to execute wait_random
+    max_delay : int
+        maximum delay
+    Returns
+    -------
+    list
+        list of all the delays returned from task_wait_random
+    """
     spawn_list = []
     delay_list = []
     for i in range(n):
