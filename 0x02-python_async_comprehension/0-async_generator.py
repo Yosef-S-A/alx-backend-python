@@ -7,7 +7,7 @@ import random
 
 
 async def async_generator() -> Generator[float, None, None]:
-    """ loop 10 times, asynchronously wait for 1 second, return random num between 1 and 10   
+    """ loop 10 times, asynchronously wait for 1 second, return random number
     Returns
     ------
     random number between 1 and 10
