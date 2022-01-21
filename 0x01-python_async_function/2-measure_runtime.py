@@ -18,6 +18,7 @@ def measure_time(n: int, max_delay: int = 10) -> float:
 
     Returns
     -------
+    float
         runtime per execution (total_time /n)
     """
     elapsed_time: float
