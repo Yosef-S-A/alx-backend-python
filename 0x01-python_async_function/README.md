@@ -8,5 +8,5 @@ In this project, I learned about:
 + How to use the random module
 
 ## Tasks 
-+ [0. The basics of async](https://github.com/Yosef-S-A/alx-backend-python/tree/main/0x01-python_async_function): asynchronous coroutine that takes in an integer argument (max_delay, with a default value of 10) named wait_random that waits for a random delay between 0 and max_delay (included and float value) seconds and eventually returns it.
-+ [1. Let's execute multiple coroutines at the same time with async]()
++ [0. The basics of async](https://github.com/Yosef-S-A/alx-backend-python/blob/main/0x01-python_async_function/0-basic_async_syntax.py): asynchronous coroutine that takes in an integer argument (max_delay, with a default value of 10) named wait_random that waits for a random delay between 0 and max_delay (included and float value) seconds and eventually returns it.
++ [1. Let's execute multiple coroutines at the same time with async](https://github.com/Yosef-S-A/alx-backend-python/blob/main/0x01-python_async_function/1-concurrent_coroutines.py)
