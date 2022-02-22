@@ -2,15 +2,12 @@
 """ Parameterize and patch as decorators, Mocking a property, More patching,
     Parameterize, Integration test: fixtures, Integration tests """
 import unittest
-import requests
-from unittest.mock import patch, Mock, PropertyMock, call
+from mock import patch, PropertyMock
 from parameterized import parameterized, parameterized_class
-import utils
-from utils import access_nested_map, get_json, memoize
-from client import GithubOrgClient
-import client
-from fixtures import TEST_PAYLOAD
 
+import client
+from client import GithubOrgClient
+from fixtures import TEST_PAYLOAD
 
 class TestGithubOrgClient(unittest.TestCase):
     """
